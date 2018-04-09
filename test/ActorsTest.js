@@ -20,9 +20,6 @@ describe('Actors', () => {
     wrapper = shallow(<Actors />);
   })
 
-  it('should render one <h1 />, inside of a <div />', () => {
-    expect(wrapper.children().first().type()).to.equal('h1');
-  });
 
   it("should render 'Actors Page' inside of the <h1 />", () => {
     expect(wrapper.children().first().text()).to.contain('Actors Page');

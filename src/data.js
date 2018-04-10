@@ -16,7 +16,7 @@ let movies = [
     genres: ['Action', 'Adventure', 'Crime', 'Mystery', 'Thriller']
   }
 ]
-
+ 
 let actors = [
   {
     name: 'Benedict Cumberbatch',
